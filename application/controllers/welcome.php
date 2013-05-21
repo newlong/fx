@@ -20,8 +20,8 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('welcome_message');
-        $this->load->model('test_model');
-        var_dump($this->test_model->test());
+        //$this->load->model('test_model');
+        //var_dump($this->test_model->test());
 
 	}
 }
